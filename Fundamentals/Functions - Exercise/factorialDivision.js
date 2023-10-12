@@ -1,5 +1,5 @@
 function factorialDivision(firstNum, secondNum) {
-    
+
     return (factorial(firstNum) / factorial(secondNum)).toFixed(2);
 
     function factorial(num) {
