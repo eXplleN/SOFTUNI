@@ -1,13 +1,13 @@
-function megativeOrPositiveNumbers(arr) {
+function negativeOrPositiveNumbers(arr) {
 
     let result = [];
 
-    for ( let element of arr) {
+    for (let element of arr) {
         if (element < 0) {
             result.unshift(element);
         }
         else {
-        result.push(element);
+            result.push(element);
         }
     }
 
