@@ -14,16 +14,6 @@ function bombNumbers(sequence, bombArr) {
             i = -1
         }
     }
-    /*for (let i = 0; i < sequence.length; i++) {
-        if (sequence[i] == bomb) {
-            if (i - bombPower < 0) {
-                sequence.splice(0, (bombPower * 2) + 1 - (Math.abs(i - bombPower)));
-            }
-            else {
-                sequence.splice(i - bombPower, (bombPower * 2) + 1);
-            }
-        }
-    }*/
 
     let sum = 0;
     for (let j of sequence) {
