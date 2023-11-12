@@ -8,7 +8,7 @@ function aMinerTask(arr) {
         if (key in chest) {
             chest[key] += value;
         }
-        else{
+        else {
             chest[key] = value;
         }
         i = -1;
@@ -19,4 +19,4 @@ function aMinerTask(arr) {
     }
 }
 
-aMinerTask([ 'gold', '155', 'silver', '10', 'copper', '17', 'gold', '15' ])
+aMinerTask(['gold', '155', 'silver', '10', 'copper', '17', 'gold', '15'])
