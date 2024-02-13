@@ -1,0 +1,18 @@
+function extendPrototype(classToExtend) {
+
+    classToExtend.prototype.species = 'Human';
+    classToExtend.prototype.toSpeciesString = function() {
+        return `I am a ${this.species}. ${this.toString()}`;
+    };
+}
+
+// Example usage:
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
+
+    toString() {
+        return `My name is ${this.name}.`;
+    }
+}
